@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution quantumultx.list v0.3.1 24db48a4973b31d718703136cfcc2b3621171f36
+# anti-ip-attribution quantumultx.list v0.3.1 ee68726c47bd74709cba6089acc95a4d7e163d4b
 # https://github.com/SunsetMkt/anti-ip-attribution
 # QuantumultX分流规则
 DOMAIN,httpdns.bilivideo.com,REJECT
@@ -69,6 +69,26 @@ DOMAIN-KEYWORD,-core-c-hl,IP
 DOMAIN-KEYWORD,-normal-lf,IP
 DOMAIN-KEYWORD,-normal-c-lf,IP
 DOMAIN-KEYWORD,-core-c-lf,IP
+DOMAIN-KEYWORD,-core-,IP
+DOMAIN-KEYWORD,-misc-,IP
+DOMAIN-KEYWORD,-search-,IP
+DOMAIN-KEYWORD,-aweme-,IP
+DOMAIN-KEYWORD,cdn-tos,IP
+DOMAIN-SUFFIX,bytetos.com,IP
+DOMAIN-SUFFIX,amemv.com,IP
+DOMAIN-SUFFIX,zijieapi.com,IP
+DOMAIN-SUFFIX,awemeughun.com,IP
+DOMAIN-SUFFIX,ecombdapi.com,IP
+DOMAIN-SUFFIX,bytegecko.com,IP
+DOMAIN-SUFFIX,ttwebview.com,IP
+DOMAIN-SUFFIX,bytetcc.com,IP
+DOMAIN-SUFFIX,douyinvod.com,IP
+DOMAIN-SUFFIX,bytednsdoc.com,IP
+DOMAIN-SUFFIX,douyinpic.com,IP
+DOMAIN-SUFFIX,byteimg.com,IP
+DOMAIN-SUFFIX,bytegoofy.com,IP
+DOMAIN-SUFFIX,ibytedapm.com,IP
+DOMAIN-SUFFIX,yhgfb-cn-static.com,IP
 DOMAIN,sso.douyin.com,IP
 DOMAIN,www.douyin.com,IP
 DOMAIN-SUFFIX,snssdk.com,IP

@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution parser.yaml v0.3.1 24db48a4973b31d718703136cfcc2b3621171f36
+# anti-ip-attribution parser.yaml v0.3.1 ee68726c47bd74709cba6089acc95a4d7e163d4b
 # https://github.com/SunsetMkt/anti-ip-attribution
 # 适用于Clash for Windows的配置文件预处理功能，详见https://docs.cfw.lbyczf.com/contents/parser.html
 parsers:
@@ -79,6 +79,26 @@ parsers:
     - "DOMAIN-KEYWORD,-normal-lf,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-KEYWORD,-normal-c-lf,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-KEYWORD,-core-c-lf,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-KEYWORD,-core-,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-KEYWORD,-misc-,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-KEYWORD,-search-,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-KEYWORD,-aweme-,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-KEYWORD,cdn-tos,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,bytetos.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,amemv.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,zijieapi.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,awemeughun.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,ecombdapi.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,bytegecko.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,ttwebview.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,bytetcc.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,douyinvod.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,bytednsdoc.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,douyinpic.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,byteimg.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,bytegoofy.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,ibytedapm.com,IP\u5F52\u5C5E\u5730"
+    - "DOMAIN-SUFFIX,yhgfb-cn-static.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,sso.douyin.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN,www.douyin.com,IP\u5F52\u5C5E\u5730"
     - "DOMAIN-SUFFIX,snssdk.com,IP\u5F52\u5C5E\u5730"

@@ -1,5 +1,5 @@
 # 针对部分网站显示IP归属地的分流规则
-# anti-ip-attribution quantumultx-domesticsocial.list v0.3.1 24db48a4973b31d718703136cfcc2b3621171f36
+# anti-ip-attribution quantumultx-domesticsocial.list v0.3.1 ee68726c47bd74709cba6089acc95a4d7e163d4b
 # https://github.com/SunsetMkt/anti-ip-attribution
 # QuantumultX分流规则，策略组名称为DomesticSocial
 DOMAIN,httpdns.bilivideo.com,REJECT
@@ -69,6 +69,26 @@ DOMAIN-KEYWORD,-core-c-hl,DomesticSocial
 DOMAIN-KEYWORD,-normal-lf,DomesticSocial
 DOMAIN-KEYWORD,-normal-c-lf,DomesticSocial
 DOMAIN-KEYWORD,-core-c-lf,DomesticSocial
+DOMAIN-KEYWORD,-core-,DomesticSocial
+DOMAIN-KEYWORD,-misc-,DomesticSocial
+DOMAIN-KEYWORD,-search-,DomesticSocial
+DOMAIN-KEYWORD,-aweme-,DomesticSocial
+DOMAIN-KEYWORD,cdn-tos,DomesticSocial
+DOMAIN-SUFFIX,bytetos.com,DomesticSocial
+DOMAIN-SUFFIX,amemv.com,DomesticSocial
+DOMAIN-SUFFIX,zijieapi.com,DomesticSocial
+DOMAIN-SUFFIX,awemeughun.com,DomesticSocial
+DOMAIN-SUFFIX,ecombdapi.com,DomesticSocial
+DOMAIN-SUFFIX,bytegecko.com,DomesticSocial
+DOMAIN-SUFFIX,ttwebview.com,DomesticSocial
+DOMAIN-SUFFIX,bytetcc.com,DomesticSocial
+DOMAIN-SUFFIX,douyinvod.com,DomesticSocial
+DOMAIN-SUFFIX,bytednsdoc.com,DomesticSocial
+DOMAIN-SUFFIX,douyinpic.com,DomesticSocial
+DOMAIN-SUFFIX,byteimg.com,DomesticSocial
+DOMAIN-SUFFIX,bytegoofy.com,DomesticSocial
+DOMAIN-SUFFIX,ibytedapm.com,DomesticSocial
+DOMAIN-SUFFIX,yhgfb-cn-static.com,DomesticSocial
 DOMAIN,sso.douyin.com,DomesticSocial
 DOMAIN,www.douyin.com,DomesticSocial
 DOMAIN-SUFFIX,snssdk.com,DomesticSocial
